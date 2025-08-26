@@ -1,0 +1,114 @@
+body {
+    padding-top: 60px;
+    /* background-color: #333 !important;
+    color: #fff !important; */
+    /* navbar height ke barabar ya thoda jyada */
+}
+
+
+
+.myPolicy {
+    min-height: 71vh;
+}
+
+.mainNav {
+    background-color: aliceblue;
+    /* color: ; */
+}
+
+.navbar-nav {
+    /* background-color: pink; */
+    gap: 3px;
+}
+
+.nav-link {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+    row-gap: 5px;
+    /* background-color: red; */
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.active-link {
+    /* color: #b33921; */
+    /* active link ka bg */
+    color: #004080 !important;
+    font-weight: 500;
+    border: 2px solid #559be1;
+    box-shadow: 3px 3px 5px #559be1;
+}
+
+
+.btn-custom-active {
+    background-color: #004080;
+    color: white;
+    font-weight: 500;
+    /* border: 2px solid blue; */
+}
+
+.btn-outline-custom {
+    border: 1px solid #004080;
+    color: #004080;
+}
+
+.btn-active {
+    background-color: #0b4987;
+    color: white;
+}
+
+.btn-active:hover {
+    background-color: #04509c;
+    color: #fff;
+}
+
+.btn-outline-custom:hover {
+    background-color: #004080;
+    color: white;
+}
+
+
+/* Home page */
+/* Carousel */
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+/* Form Section */
+.form-section {
+    background-color: #5485b7;
+    padding: 30px;
+    text-align: center;
+}
+
+.form-section input,
+.form-section button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 50%;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+}
+
+
+/* ABOUT PAGE CSS */
