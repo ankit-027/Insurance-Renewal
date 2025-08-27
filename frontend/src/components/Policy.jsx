@@ -202,7 +202,7 @@ const Policy = () => {
     // Filter policies based on selected filter
     const filteredPolicies =
         filter === "All"
-            ? policies
+            ? policies 
             : policies.filter((policy) => policy.type === filter);
 
 
